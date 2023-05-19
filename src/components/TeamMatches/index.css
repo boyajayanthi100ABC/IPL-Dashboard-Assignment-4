@@ -1,0 +1,12 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #d91c1f;
+  height: 100vh;
+  width: 100vw;
+}
+
+.team-banner-url {
+  height: 100px;
+  width: 90%;
+}
