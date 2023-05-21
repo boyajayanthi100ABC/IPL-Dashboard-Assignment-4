@@ -4,6 +4,7 @@ import './index.css'
 
 const LatestMatch = props => {
   const {latestMatchDetails} = props
+
   const {
     umpires,
     result,
@@ -20,18 +21,23 @@ const LatestMatch = props => {
 
   console.log(latestMatchDetails)
   return (
-    <div className="bg-container">
-      <div className="first">
-        <h1 className="heading"> {competingTeam} </h1>
-        <h3> {date} </h3>
-        <p> {venue} </p>
-        <p> {result} </p>
-      </div>
-      <div>
-        <img src={competingTeamLogo} alt="" />
-      </div>
-      <div>
-        <h1> Hi </h1>
+    <div>
+      <div className="bg-container">
+        <div className="first">
+          <h1 className="heading"> {competingTeam} </h1>
+          <h3> {date} </h3>
+          <p> {venue} </p>
+          <p> {result} </p>
+        </div>
+        <div>
+          <img src={competingTeamLogo} alt="" className="logo-image" />
+        </div>
+        <div className="first">
+          <p> first Innings {firstInnings} </p>
+          <p> Second Innings {secondInnings} </p>
+          <p> Man OfThe Match{manOfTheMatch} </p>
+          <p> {umpires} </p>
+        </div>
       </div>
     </div>
   )

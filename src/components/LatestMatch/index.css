@@ -3,7 +3,17 @@
 .bg-container {
   display: flex;
   flex-direction: row;
-  background-color: #0f172a;
+  background-color: #1e293b;
   height: 100vh;
   width: 100vw;
+  color: #ffffff;
+}
+
+.logo-image {
+  height: 200px;
+  width: 200px;
+}
+.first {
+  margin-right: 10px;
+  margin-left: 10px;
 }

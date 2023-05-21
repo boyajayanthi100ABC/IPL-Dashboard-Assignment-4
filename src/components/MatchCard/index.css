@@ -1,1 +1,10 @@
 /* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+}
